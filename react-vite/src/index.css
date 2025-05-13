@@ -1,0 +1,16 @@
+/* TODO: Add sitewide styles */
+/* *{
+     background-color: rgb(10, 0, 36);
+} */
+
+* {
+     font-family: 'Sora', sans-serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+}
+
+
+#modal-content{
+     border-radius: 20px;
+}

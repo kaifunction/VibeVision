@@ -1,0 +1,122 @@
+.getPin-container{
+     display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 140px 80px;
+    gap: 100px;
+}
+
+.getPin-left{
+     display: flex;
+     flex-direction: column;
+     width: 40%;
+     gap: 20px;
+}
+
+
+.getPin-text-h4{
+     background-color: #d3f71290;
+     width: 20%;
+     padding: 5px 20px;
+     font-weight: 650;
+     /* border-radius: 10px; */
+     color: #000000;
+     /* border-top-left-radius: 10px; */
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+     /* border-bottom-right-radius: 10px; */
+}
+
+.getPin-text-p{
+     letter-spacing: .7px;
+     line-height: 25px;
+}
+
+.getPin-image{
+     display: flex;
+     align-items: center;
+     gap: 0px;
+}
+
+
+.getPin-image button{
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: #00000080;
+     background-color: #ff2f0060;
+     border-color: #ff2f0040;
+     border-block-style: none;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+}
+.getPin-image button:hover{
+     transform: scale(1.15);
+     color: #ff2f00;
+     background-color: #000000;
+     border-color: #000000;
+   }
+
+
+.getPin-edit-delete-button{
+     padding: 5px;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: #d3f712;
+     background-color: #ff2f00;
+     border-color: #ff2f00;
+     border-block-style: none;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+}
+
+.getPin-edit-delete-button:hover{
+     transform: scale(1.15);
+     color: #ff2f00;
+     background-color: #000000;
+     border-color: #000000;
+   }
+
+.getPin-comment-container{
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+}
+
+.pin-comment-input{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+
+.getPin-comment{
+     padding-top: 95px;
+}
+
+
+.getPin-edit-delete-comment{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     /* justify-content: center; */
+     gap: 10px;
+}
+
+.getPin-back{
+     width: 40px;
+     height: 30px;
+}
+
+
+.getPin-edit{
+     width: 140px;
+     height: 30px;
+}
+
+
+.getPin-delete{
+     padding-left: 20px;
+     width: 0px;
+}

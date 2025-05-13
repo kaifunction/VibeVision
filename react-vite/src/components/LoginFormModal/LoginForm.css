@@ -1,0 +1,115 @@
+.login-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 40px 140px;
+     gap: 20px;
+     border-radius: 20px;
+     background-color: #ff2f0020;
+     background: linear-gradient(to bottom, #ff2f0020, #ffffff);
+}
+
+.login-top h1{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     background-color: #000000;
+     width: 100%;
+     padding: 5px 10px;
+     font-weight: 650;
+     /* border-radius: 10px; */
+     color: #ff2f00;
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+
+.login-bottom{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.login-bottom label{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     font-weight: 700;
+}
+
+
+
+.login-button1{
+     padding: 5px;
+     width: 80px;
+     font-size: 14px;
+     font-weight: 700;
+     border-radius: 20px;
+     color: #d3f712;
+     border-color: #ff2f00;
+     background-color: #ff2f00;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+   }
+
+.login-button1:hover{
+     transform: scale(1.15);
+     color: #000000;
+     background-color: #d3f712;
+     border-color: #00000050;
+   }
+
+
+   .login-button2{
+     padding: 5px;
+     width: 100px;
+     font-weight: 700;
+     border-radius: 20px;
+     color: #d3f712;
+     border-color: #000000;
+     background-color: #000000;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+   }
+
+.login-button2:hover{
+     transform: scale(1.15);
+     color: #000000;
+     background-color: #d3f712;
+     border-color: #d3f712;
+   }
+
+
+.login-button-container{
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+}
+
+.login-bottom label{
+     display: flex;
+     flex-direction: column;
+   }
+
+   .login-input{
+          width: 290px;
+          height: 30px;
+          color: #000000;
+          background-color: #d3f71220;
+          border-color: #00000080;
+   }
+
+
+.password-input-container{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+
+password-input-container svg{
+     position: absolute;
+     left: 370px;
+}

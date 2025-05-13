@@ -1,0 +1,45 @@
+.editBoard-button{
+     padding: 5px;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: #d3f712;
+     background-color: #ff2f00;
+     border-color: #ff2f00;
+     border-block-style: none;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+}
+
+
+.allPinsBoard-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     padding-top: 40px;
+     margin-left: 40px;
+     gap: 50px;
+ }
+
+ .allPinsBoard-pins{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     padding-top: 40px;
+     margin-left: 40px;
+     gap: 50px;
+ }
+
+ .allPinsBoard-BoardPic{
+     width: 100%;
+ }
+
+ .allpins{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        /* padding-top: 40px; */
+        /* margin-left: 40px; */
+        gap: 40px;
+ }

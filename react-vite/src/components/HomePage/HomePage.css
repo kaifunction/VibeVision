@@ -1,0 +1,189 @@
+body,
+html {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+}
+
+
+.home-page {
+
+     /* background: linear-gradient(500deg, #ff003c 0%, #aa00ff 45%, #2D27FF 100%); */
+     background-color: #d3f712;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+/* b5fc27 */
+
+
+
+.home-page-text-title {
+     /* background-color: #d3f712; */
+     position: absolute;
+     top: 100px;
+     left: 50px;
+     font-size: 90px;
+     flex-wrap: wrap;
+}
+
+
+.home-page-text {
+     font-size: 20px;
+     margin-left: 20px;
+     height: 413px;
+}
+
+
+.black-box{
+     width: 1310px;
+     height: 27px;
+     background-color: #ff2f00;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     position: relative;
+     top: -635px;
+     left: 430px;
+}
+
+.black-box-1{
+     width: 32px;
+    height: 27px;
+    background-color: #ffffff;
+    position: relative;
+    top: -662px;
+    left: 572px;
+}
+
+.black-box-2{
+     width: 32px;
+     height: 29px;
+     background-color: #ffffff;
+     position: relative;
+     top: -690px;
+     left: 751px;
+}
+
+.nav-bar-arrow{
+     position: fixed;
+     right: 160px;
+     bottom: 50px;
+     font-size: 50px;
+     color: #ff2f00;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #000000;
+}
+
+.nav-bar-arrow2{
+     position: fixed;
+     right: 200px;
+     bottom: 50px;
+     font-size: 50px;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow2:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #ff2f00;
+}
+
+.nav-bar-arrow3{
+     position: fixed;
+     right: 240px;
+     bottom: 50px;
+     font-size: 50px;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow3:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #ff2f00;
+}
+.nav-bar-arrow4{
+     position: fixed;
+     right: 280px;
+     bottom: 50px;
+     font-size: 50px;
+     color: #ff2f00;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow4:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #000000;
+}
+.nav-bar-arrow5{
+     position: fixed;
+     right: 320px;
+     bottom: 50px;
+     font-size: 50px;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow5:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #ff2f00;
+}
+.nav-bar-arrow6{
+     position: fixed;
+     right: 360px;
+     bottom: 50px;
+     font-size: 50px;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow6:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #ff2f00;
+}
+.nav-bar-arrow7{
+     position: fixed;
+     right: 120px;
+     bottom: 50px;
+     font-size: 50px;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow7:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #ff2f00;
+}
+.nav-bar-arrow8{
+     position: fixed;
+     right: 80px;
+     bottom: 50px;
+     font-size: 50px;
+     transition: transform 0.3s ease-in-out;
+}
+.nav-bar-arrow8:hover{
+     transform: scale(1.15);
+     font-size: 60px;
+     color: #ff2f00;
+}
+
+/* .black-box-small{
+     width: 866px;
+     height: 55px;
+     background-color: #000000;
+     position: absolute;
+     top: 509px;
+     left: 110px;
+     z-index: -1;
+     opacity: 1;
+} */
+
+/* .v {
+     font-size: 600px;
+    position: absolute;
+    top: -700px;
+    left: 600px;
+    opacity: 0.7;
+} */

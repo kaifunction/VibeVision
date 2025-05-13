@@ -1,0 +1,96 @@
+.edit-board-container{
+     display: flex;
+     flex-direction: row;
+     padding: 120px 40px;
+     width: 100%;
+}
+
+.edit-pin-left{
+     width: 30%;
+}
+
+
+.edit-board-right{
+     display: flex;
+     flex-direction: column;
+     gap: 90px;
+     margin-top: 90px;
+}
+
+.edit-board-label{
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+}
+
+.edit-board-input{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.edit-text-h4{
+     margin: 0;
+     background-color: #d3f71290;
+     width: 40%;
+     padding: 5px 10px;
+     font-weight: 650;
+     /* border-radius: 10px; */
+     color: #000000;
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+
+
+.editBoard-button{
+     padding: 5px;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: #d3f712;
+     background-color: #ff2f00;
+     border-color: #ff2f00;
+     border-block-style: none;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+}
+
+.editBoard-button:hover{
+     transform: scale(1.15);
+     color: #ff2f00;
+     background-color: #000000;
+     border-color: #000000;
+   }
+
+
+.edit-board-upload-boardPic{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+
+.editBoard-choose-file{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     background-color: #000000;
+     border-radius: 20px;
+     padding: 23px;
+     color: #ff2f00;
+     font-weight: 700;
+     width: 65%;
+     margin-bottom: 20px;
+}
+
+.edit-board-label{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.edit-board-button-container{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+}

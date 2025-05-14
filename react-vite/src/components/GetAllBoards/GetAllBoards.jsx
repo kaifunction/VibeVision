@@ -63,5 +63,4 @@ const GetAllBoards = () => {
   );
 };
 
-
 export default GetAllBoards;

@@ -19,7 +19,9 @@ const GetOneBoard = () => {
   const currentUser = useSelector((state) => state.session.user);
   // const board = useSelector((state) => state.boards[boardId]);
   const allPins = useSelector((state) => state.pins.postedBoardPins);
-  const [board, setBoard] = useState(useSelector((state) => state.boards[boardId]));
+  const [board, setBoard] = useState(
+    useSelector((state) => state.boards[boardId])
+  );
   // console.log("allPinsFROMGETONEBOARD===>", allPins);
   // const allPinsArray = Object.values(allPins);
   // useEffect(() => {
@@ -40,8 +42,7 @@ const GetOneBoard = () => {
   useEffect(() => {
     // 这里不需要调用 thunkGetBoard，因为在创建新的 Pin 后已经更新了板块信息
     // setBoard(boardData); // 不需要再次设置 board，因为 Redux store 中的数据已经更新
-}, [board, allPins.length]); // 添加依赖数组 board，当 board 变化时重新触发 useEffect
-
+  }, [board, allPins.length]); // 添加依赖数组 board，当 board 变化时重新触发 useEffect
 
   const handleOpenCreatePin = () => {
     setShowCreatePin(true);
@@ -54,13 +55,11 @@ const GetOneBoard = () => {
   const handlePinCreated = async (pin) => {
     // console.log("New Pin created===>", pin);
 
-
     const createPin = await dispatch(thunkPostBoardPins(boardId, pin));
     // console.log("New Pin created AFTER===>", createPin);
 
     dispatch(getBoard(createPin));
     navigate(`/pin/${pin.id}`);
-
   };
 
   function toEditPage(e) {
@@ -96,7 +95,13 @@ const GetOneBoard = () => {
             {" "}
             Create Pin{" "}
           </button>
-          {showCreatePin && <CreateBoardPin onPinCreated={handlePinCreated} boardId={boardId} onClose={handleCloseCreatePin}/>}
+          {showCreatePin && (
+            <CreateBoardPin
+              onPinCreated={handlePinCreated}
+              boardId={boardId}
+              onClose={handleCloseCreatePin}
+            />
+          )}
           <button
             onClick={toEditPage}
             className="getPin-edit-delete-button"
@@ -128,10 +133,19 @@ const GetOneBoard = () => {
 
       <div className="allPinsBoard-container">
         <div className="allPinsBoard-BoardPic">
-        <img src={board?.board_pic} alt={board?.title} style={{width:'300px', height:'450px', margin:'0 10px 20px 40px', borderRadius:"20px"}}/>
+          <img
+            src={board?.board_pic}
+            alt={board?.title}
+            style={{
+              width: "300px",
+              height: "450px",
+              margin: "0 10px 20px 40px",
+              borderRadius: "20px",
+            }}
+          />
         </div>
         <div className="allPinsBoard-pins">
-          <h3 style={{marginRight:'228px'}}>All Pins</h3>
+          <h3 style={{ marginRight: "228px" }}>All Pins</h3>
           <div className="allpins">
             {pins?.map((pin) => (
               <div key={pin.id} className="allPins-eachpin">
@@ -142,7 +156,6 @@ const GetOneBoard = () => {
               </div>
             ))}
           </div>
-
         </div>
       </div>
     </div>

@@ -25,7 +25,6 @@ const DeleteBoard = () => {
           closeModal();
         };
 
-
      return (
           <form className="DeleteForm">
                <div className="delete-container">
